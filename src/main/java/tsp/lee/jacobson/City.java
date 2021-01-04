@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Commentaire de la classe City
+ */
+
 public class City {
     int x;
     int y;
