@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | Simple getter, pas à tester | 
+| getY | D | Simple getter, pas à tester | 
+| toString | D | Concaténation de deux getters simples, pas à tester  | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Simple utilisation de la fonction contains de Java, pas à tester  |
+| getCity  | D | Simple getter, pas à tester |
+| getDistance  | T |  |
+| getFitness  | T |  |
+| setCity  | D | Simple setter, pas à tester |
+| tourSize  | D | Simple utilisation de la fonction size de Java, pas à tester |
+| toString  | D | Fonction toString avec une boucle très simple pour l'affichage, pas à tester |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | Simple getter, pas à tester |
+| populationSize  | D | Simple utilisation de la fonction length, pas à tester  |
+| saveTour  | D | S'assimile à un setter, pas à tester |
 
 ## Functions to test now
 
