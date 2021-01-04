@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 import java.util.ArrayList;
+
 public class TourTest {
 
 	ArrayList chemin = new ArrayList();
@@ -64,7 +65,6 @@ public class TourTest {
 		chemin.add(ville2);
 		chemin.add(ville3);
 		Tour tour = new Tour(chemin);
-		System.out.println(tour.getDistance());
 		int expected = 3;
 		int actual = tour.getDistance();
 		assertEquals(expected, actual);
